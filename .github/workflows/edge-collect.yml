@@ -1,0 +1,42 @@
+# stocks-edge: 高频增量数据采集 (小号 Actions 分担主号额度)
+# 交易日 09:30-15:00 每 5 分钟: 涨跌停池 + 龙虎榜 + 板块资金流
+name: edge-collect
+on:
+  schedule:
+    - cron: '*/5 1,2,3,4,5,6,7 * * 1-5'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      TZ: Asia/Shanghai
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Checkout shared tools
+        uses: actions/checkout@v4
+        with:
+          repository: qwerzxcva/stocks-tools
+          path: tools
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Fetch limit pools + dragon-tiger
+        run: |
+          cd tools
+          python3 tools/fetch_all_sources_v2.py "$(TZ=Asia/Shanghai date +%Y-%m-%d)" || true
+          cd ..
+      - name: Commit increment
+        run: |
+          git config user.name "edge-bot"
+          git config user.email "741059079@qq.com"
+          ts=$(TZ=Asia/Shanghai date '+%Y%m%d_%H%M')
+          git add -A
+          git diff --quiet HEAD && echo "no change" || {
+            git commit -m "edge: $ts" && \
+            git -c http.version=HTTP/1.1 push origin main; }
