@@ -1,0 +1,33 @@
+# 股票数据采集 Codespace
+# 用途: 长跑采集 (突破 Actions 6小时限制), 补全 K 线覆盖率, 高频实时数据
+#
+# 与 GitHub Actions 的分工:
+#   Actions   — 轻量定时任务 (每次 <5min), 免费额度内
+#   Codespace — 重活: 全市场K线补录 (需 2-4 小时), 分钟级长跑采集
+#
+# 启动: GitHub 网页 → Code → Codespaces → Create codespace on main
+image:
+  file: ./Dockerfile
+
+# 空闲 30 分钟后自动停止 (节省额度); 有任务运行时不会停
+ idleTimeout: 30
+
+# 预装并缓存依赖, 冷启动快
+ postCreateCommand: |
+   pip install -r requirements.txt
+   python3 scripts/verify_paths.py
+
+# 端口: 本地调试网站时用 ( Codespace 内 8000 → 公网 )
+ forwardPorts:
+   - 8000
+
+vscode:
+  extensions:
+    - ms-python.python
+    - ms-python.vscode-pylance
+
+# 环境变量: 让脚本在 Codespace 里也找到数据路径
+ remoteEnv:
+   STOCKS_KLINE_BULK: /workspaces/stocks-data-kline/data/bulk
+   STOCKS_LIVE_ROOT: /workspaces/stocks-data-live/data
+   STOCKS_AI_VIEW_DATA: /workspaces/stocks-ai-view/data
