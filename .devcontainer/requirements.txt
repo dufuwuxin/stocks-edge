@@ -1,0 +1,6 @@
+# 股票数据采集 Codespace 依赖
+# 全部零构建: 镜像构建期安装, Codespace 启动即可运行
+requests>=2.31.0
+duckdb>=1.0.0
+numpy>=1.26.0
+pandas>=2.1.0
