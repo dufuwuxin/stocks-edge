@@ -1,0 +1,614 @@
+{
+ "agg": {
+  "rounds": 60,
+  "recoup22_mean": 0.8842,
+  "recoup60_mean": 0.9388,
+  "final_mean": 0.025,
+  "final_win_mean": 0.5337,
+  "beat_rate": 0.7,
+  "round_recoup22_ge50": 60,
+  "round_recoup60_ge50": 60
+ },
+ "rounds": [
+  {
+   "t0": "2020-01-02",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 0.975,
+   "final_mean": -0.0536,
+   "final_win": 0.175,
+   "mkt": -0.0823,
+   "beat": true
+  },
+  {
+   "t0": "2020-01-07",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 0.925,
+   "final_mean": -0.0564,
+   "final_win": 0.15,
+   "mkt": -0.0971,
+   "beat": true
+  },
+  {
+   "t0": "2020-01-10",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 1.0,
+   "final_mean": -0.0425,
+   "final_win": 0.25,
+   "mkt": -0.052,
+   "beat": true
+  },
+  {
+   "t0": "2020-01-15",
+   "n": 40,
+   "recoup22": 0.8,
+   "recoup60": 0.85,
+   "final_mean": -0.0373,
+   "final_win": 0.275,
+   "mkt": -0.0189,
+   "beat": false
+  },
+  {
+   "t0": "2020-01-20",
+   "n": 40,
+   "recoup22": 0.5,
+   "recoup60": 0.65,
+   "final_mean": -0.0535,
+   "final_win": 0.25,
+   "mkt": -0.0288,
+   "beat": false
+  },
+  {
+   "t0": "2020-01-23",
+   "n": 40,
+   "recoup22": 0.625,
+   "recoup60": 0.825,
+   "final_mean": -0.0041,
+   "final_win": 0.35,
+   "mkt": 0.0143,
+   "beat": false
+  },
+  {
+   "t0": "2020-02-05",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0766,
+   "final_win": 0.825,
+   "mkt": 0.1392,
+   "beat": false
+  },
+  {
+   "t0": "2020-02-10",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 0.975,
+   "final_mean": 0.0153,
+   "final_win": 0.5,
+   "mkt": 0.0578,
+   "beat": false
+  },
+  {
+   "t0": "2020-02-13",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": -0.0688,
+   "final_win": 0.15,
+   "mkt": -0.0123,
+   "beat": false
+  },
+  {
+   "t0": "2020-02-18",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": -0.1112,
+   "final_win": 0.05,
+   "mkt": -0.0738,
+   "beat": false
+  },
+  {
+   "t0": "2020-02-21",
+   "n": 40,
+   "recoup22": 0.775,
+   "recoup60": 0.9,
+   "final_mean": -0.0952,
+   "final_win": 0.15,
+   "mkt": -0.0943,
+   "beat": false
+  },
+  {
+   "t0": "2020-02-26",
+   "n": 40,
+   "recoup22": 0.875,
+   "recoup60": 0.925,
+   "final_mean": -0.0337,
+   "final_win": 0.3,
+   "mkt": -0.0746,
+   "beat": true
+  },
+  {
+   "t0": "2020-03-02",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 1.0,
+   "final_mean": -0.0455,
+   "final_win": 0.35,
+   "mkt": -0.0931,
+   "beat": true
+  },
+  {
+   "t0": "2020-03-05",
+   "n": 40,
+   "recoup22": 0.525,
+   "recoup60": 0.775,
+   "final_mean": -0.0678,
+   "final_win": 0.225,
+   "mkt": -0.0961,
+   "beat": true
+  },
+  {
+   "t0": "2020-03-10",
+   "n": 40,
+   "recoup22": 0.55,
+   "recoup60": 0.85,
+   "final_mean": -0.0275,
+   "final_win": 0.425,
+   "mkt": -0.0877,
+   "beat": true
+  },
+  {
+   "t0": "2020-03-13",
+   "n": 40,
+   "recoup22": 0.675,
+   "recoup60": 0.95,
+   "final_mean": 0.0294,
+   "final_win": 0.525,
+   "mkt": -0.0455,
+   "beat": true
+  },
+  {
+   "t0": "2020-03-18",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": 0.0907,
+   "final_win": 0.875,
+   "mkt": 0.0206,
+   "beat": true
+  },
+  {
+   "t0": "2020-03-23",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1337,
+   "final_win": 0.9,
+   "mkt": 0.0374,
+   "beat": true
+  },
+  {
+   "t0": "2020-03-26",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 0.975,
+   "final_mean": 0.0615,
+   "final_win": 0.75,
+   "mkt": -0.0325,
+   "beat": true
+  },
+  {
+   "t0": "2020-03-31",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0934,
+   "final_win": 0.775,
+   "mkt": 0.0238,
+   "beat": true
+  },
+  {
+   "t0": "2020-04-03",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0637,
+   "final_win": 0.75,
+   "mkt": 0.0264,
+   "beat": true
+  },
+  {
+   "t0": "2020-04-09",
+   "n": 40,
+   "recoup22": 0.9,
+   "recoup60": 0.975,
+   "final_mean": 0.0456,
+   "final_win": 0.625,
+   "mkt": -0.0191,
+   "beat": true
+  },
+  {
+   "t0": "2020-04-14",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": 0.0792,
+   "final_win": 0.625,
+   "mkt": 0.0012,
+   "beat": true
+  },
+  {
+   "t0": "2020-04-17",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 1.0,
+   "final_mean": 0.0529,
+   "final_win": 0.55,
+   "mkt": -0.0256,
+   "beat": true
+  },
+  {
+   "t0": "2020-04-22",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 1.0,
+   "final_mean": 0.0649,
+   "final_win": 0.625,
+   "mkt": -0.0252,
+   "beat": true
+  },
+  {
+   "t0": "2020-04-27",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": 0.0861,
+   "final_win": 0.75,
+   "mkt": 0.0328,
+   "beat": true
+  },
+  {
+   "t0": "2020-04-30",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.073,
+   "final_win": 0.8,
+   "mkt": 0.0408,
+   "beat": true
+  },
+  {
+   "t0": "2020-05-08",
+   "n": 40,
+   "recoup22": 0.9,
+   "recoup60": 1.0,
+   "final_mean": 0.0396,
+   "final_win": 0.725,
+   "mkt": 0.0182,
+   "beat": true
+  },
+  {
+   "t0": "2020-05-13",
+   "n": 40,
+   "recoup22": 0.875,
+   "recoup60": 1.0,
+   "final_mean": 0.0338,
+   "final_win": 0.625,
+   "mkt": 0.004,
+   "beat": true
+  },
+  {
+   "t0": "2020-05-18",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": 0.0304,
+   "final_win": 0.65,
+   "mkt": 0.0312,
+   "beat": false
+  },
+  {
+   "t0": "2020-05-21",
+   "n": 40,
+   "recoup22": 0.825,
+   "recoup60": 1.0,
+   "final_mean": 0.0402,
+   "final_win": 0.625,
+   "mkt": 0.0422,
+   "beat": false
+  },
+  {
+   "t0": "2020-05-26",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 1.0,
+   "final_mean": 0.0563,
+   "final_win": 0.725,
+   "mkt": 0.0248,
+   "beat": true
+  },
+  {
+   "t0": "2020-05-29",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": 0.1138,
+   "final_win": 0.9,
+   "mkt": 0.0627,
+   "beat": true
+  },
+  {
+   "t0": "2020-06-03",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 1.0,
+   "final_mean": 0.1294,
+   "final_win": 0.9,
+   "mkt": 0.0915,
+   "beat": true
+  },
+  {
+   "t0": "2020-06-08",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1668,
+   "final_win": 0.925,
+   "mkt": 0.1276,
+   "beat": true
+  },
+  {
+   "t0": "2020-06-11",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 0.975,
+   "final_mean": 0.1861,
+   "final_win": 0.95,
+   "mkt": 0.1317,
+   "beat": true
+  },
+  {
+   "t0": "2020-06-16",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1575,
+   "final_win": 0.925,
+   "mkt": 0.1112,
+   "beat": true
+  },
+  {
+   "t0": "2020-06-19",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1731,
+   "final_win": 0.975,
+   "mkt": 0.102,
+   "beat": true
+  },
+  {
+   "t0": "2020-06-24",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1279,
+   "final_win": 0.85,
+   "mkt": 0.0782,
+   "beat": true
+  },
+  {
+   "t0": "2020-07-01",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1022,
+   "final_win": 0.725,
+   "mkt": 0.0957,
+   "beat": true
+  },
+  {
+   "t0": "2020-07-06",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 0.975,
+   "final_mean": 0.0818,
+   "final_win": 0.65,
+   "mkt": 0.0571,
+   "beat": true
+  },
+  {
+   "t0": "2020-07-09",
+   "n": 40,
+   "recoup22": 0.875,
+   "recoup60": 0.9,
+   "final_mean": -0.0016,
+   "final_win": 0.475,
+   "mkt": 0.0009,
+   "beat": false
+  },
+  {
+   "t0": "2020-07-14",
+   "n": 40,
+   "recoup22": 0.675,
+   "recoup60": 0.725,
+   "final_mean": -0.0058,
+   "final_win": 0.525,
+   "mkt": -0.032,
+   "beat": true
+  },
+  {
+   "t0": "2020-07-17",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 0.95,
+   "final_mean": 0.088,
+   "final_win": 0.7,
+   "mkt": 0.0635,
+   "beat": true
+  },
+  {
+   "t0": "2020-07-22",
+   "n": 40,
+   "recoup22": 0.825,
+   "recoup60": 0.825,
+   "final_mean": 0.0014,
+   "final_win": 0.425,
+   "mkt": 0.0051,
+   "beat": false
+  },
+  {
+   "t0": "2020-07-27",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0381,
+   "final_win": 0.65,
+   "mkt": 0.0362,
+   "beat": true
+  },
+  {
+   "t0": "2020-07-30",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 0.975,
+   "final_mean": 0.0181,
+   "final_win": 0.5,
+   "mkt": 0.0263,
+   "beat": false
+  },
+  {
+   "t0": "2020-08-04",
+   "n": 40,
+   "recoup22": 0.8,
+   "recoup60": 0.85,
+   "final_mean": 0.0137,
+   "final_win": 0.5,
+   "mkt": -0.009,
+   "beat": true
+  },
+  {
+   "t0": "2020-08-07",
+   "n": 40,
+   "recoup22": 0.9,
+   "recoup60": 0.925,
+   "final_mean": -0.0066,
+   "final_win": 0.4,
+   "mkt": -0.0021,
+   "beat": false
+  },
+  {
+   "t0": "2020-08-12",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 0.975,
+   "final_mean": 0.01,
+   "final_win": 0.525,
+   "mkt": -0.0324,
+   "beat": true
+  },
+  {
+   "t0": "2020-08-17",
+   "n": 40,
+   "recoup22": 0.825,
+   "recoup60": 0.875,
+   "final_mean": -0.0361,
+   "final_win": 0.4,
+   "mkt": -0.0594,
+   "beat": true
+  },
+  {
+   "t0": "2020-08-20",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": -0.0261,
+   "final_win": 0.375,
+   "mkt": -0.0302,
+   "beat": true
+  },
+  {
+   "t0": "2020-08-25",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 0.95,
+   "final_mean": -0.0652,
+   "final_win": 0.15,
+   "mkt": -0.0682,
+   "beat": true
+  },
+  {
+   "t0": "2020-08-28",
+   "n": 40,
+   "recoup22": 0.725,
+   "recoup60": 0.875,
+   "final_mean": -0.0819,
+   "final_win": 0.1,
+   "mkt": -0.0782,
+   "beat": false
+  },
+  {
+   "t0": "2020-09-02",
+   "n": 40,
+   "recoup22": 0.55,
+   "recoup60": 0.6,
+   "final_mean": -0.0507,
+   "final_win": 0.225,
+   "mkt": -0.0387,
+   "beat": false
+  },
+  {
+   "t0": "2020-09-07",
+   "n": 40,
+   "recoup22": 0.775,
+   "recoup60": 0.8,
+   "final_mean": -0.0137,
+   "final_win": 0.325,
+   "mkt": -0.0296,
+   "beat": true
+  },
+  {
+   "t0": "2020-09-10",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 0.95,
+   "final_mean": 0.0104,
+   "final_win": 0.625,
+   "mkt": 0.0214,
+   "beat": false
+  },
+  {
+   "t0": "2020-09-15",
+   "n": 40,
+   "recoup22": 0.825,
+   "recoup60": 0.9,
+   "final_mean": -0.0387,
+   "final_win": 0.25,
+   "mkt": -0.0272,
+   "beat": false
+  },
+  {
+   "t0": "2020-09-18",
+   "n": 40,
+   "recoup22": 0.75,
+   "recoup60": 0.875,
+   "final_mean": -0.017,
+   "final_win": 0.4,
+   "mkt": -0.0383,
+   "beat": true
+  },
+  {
+   "t0": "2020-09-23",
+   "n": 40,
+   "recoup22": 0.85,
+   "recoup60": 0.875,
+   "final_mean": -0.0442,
+   "final_win": 0.35,
+   "mkt": -0.0561,
+   "beat": true
+  }
+ ]
+}
