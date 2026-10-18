@@ -1,0 +1,614 @@
+{
+ "agg": {
+  "rounds": 60,
+  "recoup22_mean": 0.9116,
+  "recoup60_mean": 0.9547,
+  "final_mean": 0.014,
+  "final_win_mean": 0.5427,
+  "beat_rate": 0.5667,
+  "round_recoup22_ge50": 59,
+  "round_recoup60_ge50": 60
+ },
+ "rounds": [
+  {
+   "t0": "2016-01-04",
+   "n": 39,
+   "recoup22": 0.744,
+   "recoup60": 0.744,
+   "final_mean": -0.1833,
+   "final_win": 0.026,
+   "mkt": -0.2148,
+   "beat": true
+  },
+  {
+   "t0": "2016-01-07",
+   "n": 40,
+   "recoup22": 0.75,
+   "recoup60": 0.825,
+   "final_mean": -0.0883,
+   "final_win": 0.125,
+   "mkt": -0.1319,
+   "beat": true
+  },
+  {
+   "t0": "2016-01-12",
+   "n": 40,
+   "recoup22": 0.875,
+   "recoup60": 0.9,
+   "final_mean": 0.022,
+   "final_win": 0.55,
+   "mkt": -0.0153,
+   "beat": true
+  },
+  {
+   "t0": "2016-01-15",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0481,
+   "final_win": 0.625,
+   "mkt": 0.059,
+   "beat": false
+  },
+  {
+   "t0": "2016-01-20",
+   "n": 40,
+   "recoup22": 0.65,
+   "recoup60": 0.825,
+   "final_mean": -0.0684,
+   "final_win": 0.15,
+   "mkt": -0.0851,
+   "beat": true
+  },
+  {
+   "t0": "2016-01-25",
+   "n": 40,
+   "recoup22": 0.7,
+   "recoup60": 0.85,
+   "final_mean": -0.05,
+   "final_win": 0.2,
+   "mkt": -0.066,
+   "beat": true
+  },
+  {
+   "t0": "2016-01-28",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0739,
+   "final_win": 0.775,
+   "mkt": 0.0852,
+   "beat": false
+  },
+  {
+   "t0": "2016-02-02",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 0.975,
+   "final_mean": -0.0215,
+   "final_win": 0.425,
+   "mkt": -0.0175,
+   "beat": false
+  },
+  {
+   "t0": "2016-02-05",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": -0.0094,
+   "final_win": 0.475,
+   "mkt": -0.0044,
+   "beat": false
+  },
+  {
+   "t0": "2016-02-17",
+   "n": 40,
+   "recoup22": 0.85,
+   "recoup60": 0.925,
+   "final_mean": 0.0002,
+   "final_win": 0.45,
+   "mkt": -0.0037,
+   "beat": true
+  },
+  {
+   "t0": "2016-02-22",
+   "n": 40,
+   "recoup22": 0.625,
+   "recoup60": 0.9,
+   "final_mean": 0.0028,
+   "final_win": 0.4,
+   "mkt": 0.0011,
+   "beat": true
+  },
+  {
+   "t0": "2016-02-25",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0935,
+   "final_win": 0.925,
+   "mkt": 0.082,
+   "beat": true
+  },
+  {
+   "t0": "2016-03-01",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1354,
+   "final_win": 0.925,
+   "mkt": 0.1553,
+   "beat": false
+  },
+  {
+   "t0": "2016-03-04",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1153,
+   "final_win": 0.925,
+   "mkt": 0.1676,
+   "beat": false
+  },
+  {
+   "t0": "2016-03-09",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1075,
+   "final_win": 0.975,
+   "mkt": 0.154,
+   "beat": false
+  },
+  {
+   "t0": "2016-03-14",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.1008,
+   "final_win": 0.975,
+   "mkt": 0.154,
+   "beat": false
+  },
+  {
+   "t0": "2016-03-17",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0655,
+   "final_win": 0.825,
+   "mkt": 0.1158,
+   "beat": false
+  },
+  {
+   "t0": "2016-03-22",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 0.95,
+   "final_mean": -0.0039,
+   "final_win": 0.45,
+   "mkt": -0.012,
+   "beat": true
+  },
+  {
+   "t0": "2016-03-25",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 0.95,
+   "final_mean": -0.0197,
+   "final_win": 0.3,
+   "mkt": -0.0077,
+   "beat": false
+  },
+  {
+   "t0": "2016-03-30",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 0.925,
+   "final_mean": 0.0198,
+   "final_win": 0.6,
+   "mkt": 0.0101,
+   "beat": true
+  },
+  {
+   "t0": "2016-04-05",
+   "n": 39,
+   "recoup22": 0.846,
+   "recoup60": 0.872,
+   "final_mean": -0.0241,
+   "final_win": 0.359,
+   "mkt": -0.0506,
+   "beat": true
+  },
+  {
+   "t0": "2016-04-08",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 0.975,
+   "final_mean": -0.0162,
+   "final_win": 0.4,
+   "mkt": -0.0841,
+   "beat": true
+  },
+  {
+   "t0": "2016-04-13",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 0.95,
+   "final_mean": -0.0244,
+   "final_win": 0.425,
+   "mkt": -0.1089,
+   "beat": true
+  },
+  {
+   "t0": "2016-04-18",
+   "n": 40,
+   "recoup22": 0.875,
+   "recoup60": 0.95,
+   "final_mean": -0.0421,
+   "final_win": 0.3,
+   "mkt": -0.1325,
+   "beat": true
+  },
+  {
+   "t0": "2016-04-21",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 0.975,
+   "final_mean": -0.0186,
+   "final_win": 0.35,
+   "mkt": -0.0568,
+   "beat": true
+  },
+  {
+   "t0": "2016-04-26",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": -0.0345,
+   "final_win": 0.3,
+   "mkt": -0.0694,
+   "beat": true
+  },
+  {
+   "t0": "2016-04-29",
+   "n": 39,
+   "recoup22": 0.974,
+   "recoup60": 0.974,
+   "final_mean": -0.0027,
+   "final_win": 0.436,
+   "mkt": -0.0171,
+   "beat": true
+  },
+  {
+   "t0": "2016-05-05",
+   "n": 40,
+   "recoup22": 0.425,
+   "recoup60": 0.9,
+   "final_mean": -0.0202,
+   "final_win": 0.375,
+   "mkt": -0.0394,
+   "beat": true
+  },
+  {
+   "t0": "2016-05-10",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 1.0,
+   "final_mean": 0.0074,
+   "final_win": 0.5,
+   "mkt": -0.0054,
+   "beat": true
+  },
+  {
+   "t0": "2016-05-13",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0289,
+   "final_win": 0.65,
+   "mkt": 0.0395,
+   "beat": false
+  },
+  {
+   "t0": "2016-05-18",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 1.0,
+   "final_mean": 0.0318,
+   "final_win": 0.675,
+   "mkt": 0.0608,
+   "beat": false
+  },
+  {
+   "t0": "2016-05-23",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.017,
+   "final_win": 0.525,
+   "mkt": 0.0254,
+   "beat": false
+  },
+  {
+   "t0": "2016-05-26",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0633,
+   "final_win": 0.9,
+   "mkt": 0.078,
+   "beat": false
+  },
+  {
+   "t0": "2016-05-31",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": 0.0514,
+   "final_win": 0.8,
+   "mkt": 0.0575,
+   "beat": false
+  },
+  {
+   "t0": "2016-06-03",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 1.0,
+   "final_mean": 0.0538,
+   "final_win": 0.8,
+   "mkt": 0.0494,
+   "beat": true
+  },
+  {
+   "t0": "2016-06-08",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 0.975,
+   "final_mean": 0.0928,
+   "final_win": 0.95,
+   "mkt": 0.0583,
+   "beat": true
+  },
+  {
+   "t0": "2016-06-15",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 1.0,
+   "final_mean": 0.1046,
+   "final_win": 0.95,
+   "mkt": 0.0827,
+   "beat": true
+  },
+  {
+   "t0": "2016-06-20",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 0.975,
+   "final_mean": 0.0897,
+   "final_win": 0.95,
+   "mkt": 0.0702,
+   "beat": true
+  },
+  {
+   "t0": "2016-06-23",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0789,
+   "final_win": 0.95,
+   "mkt": 0.0601,
+   "beat": true
+  },
+  {
+   "t0": "2016-06-28",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0329,
+   "final_win": 0.65,
+   "mkt": 0.0004,
+   "beat": true
+  },
+  {
+   "t0": "2016-07-01",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": -0.0043,
+   "final_win": 0.525,
+   "mkt": -0.0165,
+   "beat": true
+  },
+  {
+   "t0": "2016-07-06",
+   "n": 39,
+   "recoup22": 0.923,
+   "recoup60": 0.949,
+   "final_mean": -0.0273,
+   "final_win": 0.256,
+   "mkt": -0.0438,
+   "beat": true
+  },
+  {
+   "t0": "2016-07-11",
+   "n": 39,
+   "recoup22": 0.974,
+   "recoup60": 1.0,
+   "final_mean": -0.0036,
+   "final_win": 0.462,
+   "mkt": -0.0217,
+   "beat": true
+  },
+  {
+   "t0": "2016-07-14",
+   "n": 40,
+   "recoup22": 0.875,
+   "recoup60": 0.925,
+   "final_mean": -0.0037,
+   "final_win": 0.5,
+   "mkt": -0.024,
+   "beat": true
+  },
+  {
+   "t0": "2016-07-19",
+   "n": 39,
+   "recoup22": 0.821,
+   "recoup60": 0.897,
+   "final_mean": -0.0047,
+   "final_win": 0.436,
+   "mkt": -0.0101,
+   "beat": true
+  },
+  {
+   "t0": "2016-07-22",
+   "n": 40,
+   "recoup22": 0.775,
+   "recoup60": 0.85,
+   "final_mean": -0.0171,
+   "final_win": 0.4,
+   "mkt": -0.0057,
+   "beat": false
+  },
+  {
+   "t0": "2016-07-27",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 0.95,
+   "final_mean": 0.0101,
+   "final_win": 0.425,
+   "mkt": 0.0258,
+   "beat": false
+  },
+  {
+   "t0": "2016-08-01",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0429,
+   "final_win": 0.775,
+   "mkt": 0.055,
+   "beat": false
+  },
+  {
+   "t0": "2016-08-04",
+   "n": 40,
+   "recoup22": 1.0,
+   "recoup60": 1.0,
+   "final_mean": 0.0238,
+   "final_win": 0.65,
+   "mkt": 0.0251,
+   "beat": false
+  },
+  {
+   "t0": "2016-08-09",
+   "n": 40,
+   "recoup22": 0.95,
+   "recoup60": 1.0,
+   "final_mean": 0.0175,
+   "final_win": 0.575,
+   "mkt": 0.0264,
+   "beat": false
+  },
+  {
+   "t0": "2016-08-12",
+   "n": 40,
+   "recoup22": 0.975,
+   "recoup60": 0.975,
+   "final_mean": -0.0175,
+   "final_win": 0.35,
+   "mkt": -0.0026,
+   "beat": false
+  },
+  {
+   "t0": "2016-08-17",
+   "n": 40,
+   "recoup22": 0.85,
+   "recoup60": 0.9,
+   "final_mean": -0.0285,
+   "final_win": 0.25,
+   "mkt": -0.0292,
+   "beat": true
+  },
+  {
+   "t0": "2016-08-22",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 0.975,
+   "final_mean": -0.0031,
+   "final_win": 0.4,
+   "mkt": -0.0141,
+   "beat": true
+  },
+  {
+   "t0": "2016-08-25",
+   "n": 40,
+   "recoup22": 0.875,
+   "recoup60": 0.95,
+   "final_mean": -0.0021,
+   "final_win": 0.4,
+   "mkt": -0.025,
+   "beat": true
+  },
+  {
+   "t0": "2016-08-30",
+   "n": 40,
+   "recoup22": 0.875,
+   "recoup60": 0.95,
+   "final_mean": 0.001,
+   "final_win": 0.425,
+   "mkt": -0.0043,
+   "beat": true
+  },
+  {
+   "t0": "2016-09-02",
+   "n": 40,
+   "recoup22": 0.925,
+   "recoup60": 0.975,
+   "final_mean": 0.0059,
+   "final_win": 0.375,
+   "mkt": 0.0141,
+   "beat": false
+  },
+  {
+   "t0": "2016-09-07",
+   "n": 39,
+   "recoup22": 0.846,
+   "recoup60": 0.923,
+   "final_mean": -0.0056,
+   "final_win": 0.385,
+   "mkt": 0.0012,
+   "beat": false
+  },
+  {
+   "t0": "2016-09-12",
+   "n": 39,
+   "recoup22": 0.897,
+   "recoup60": 0.949,
+   "final_mean": 0.0273,
+   "final_win": 0.564,
+   "mkt": 0.0376,
+   "beat": false
+  },
+  {
+   "t0": "2016-09-19",
+   "n": 40,
+   "recoup22": 0.825,
+   "recoup60": 0.9,
+   "final_mean": 0.0085,
+   "final_win": 0.55,
+   "mkt": 0.0329,
+   "beat": false
+  },
+  {
+   "t0": "2016-09-22",
+   "n": 39,
+   "recoup22": 0.821,
+   "recoup60": 0.897,
+   "final_mean": 0.0099,
+   "final_win": 0.513,
+   "mkt": 0.0144,
+   "beat": false
+  }
+ ]
+}
